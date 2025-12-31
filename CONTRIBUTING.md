@@ -9,10 +9,16 @@ Thank you for your interest in contributing to BandungDinespot! We welcome contr
 ### 1. Fork Repository
 Fork repository ini ke akun GitHub Anda sendiri.
 
-### 2. Clone Repository
+### 2. Clone Fork Anda / Clone Your Fork
 ```bash
+# Clone fork Anda (ganti your-username dengan username GitHub Anda)
+# Clone your fork (replace your-username with your GitHub username)
 git clone https://github.com/your-username/BandungDinespot.git
 cd BandungDinespot
+
+# Tambahkan remote upstream
+# Add upstream remote
+git remote add upstream https://github.com/theweeknd-rdr/BandungDinespot.git
 ```
 
 ### 3. Buat Branch Baru / Create a New Branch
